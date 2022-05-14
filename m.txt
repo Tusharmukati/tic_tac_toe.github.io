@@ -1,0 +1,17 @@
+p{     margin-top: 6vmin;
+    width: 50vmin;
+    height: 4vmin;
+    background-color: rgb(173, 15, 15);
+    /* display: inline-block; */
+    text-align: center;
+    line-height: 4vmin;
+}
+#form{
+    width: 50vmin;
+    text-align: center;
+    background-color: #fff;}
+
+#rst{
+    width: 5vmin;
+    background-color: blueviolet;
+}

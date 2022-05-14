@@ -1,0 +1,89 @@
+@keyframes cg {
+    0%{
+background-color: brown;
+    }
+    5%{
+        background-color: palevioletred;
+    }
+    10%{
+background-color: aqua;
+    }
+}
+@keyframes lg {
+    0.25%{transform: scale(1.1,1.1);}
+}
+.main_container{
+    margin-top: 5vmin;
+  width: 90vmin;
+  height: 90vmin;
+  background: url(sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid burlywood;
+}
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(wallpaperflare.com_wallpaper.jpg);  
+}
+.game{
+    width: 50vmin;
+    height: 50vmin;
+    background-color:green;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+  
+}
+
+.tiles{
+    border: 1px solid wheat;
+    font-family: 'Barlow', sans-serif;
+    font-size: 5vmin;
+    text-align: center;line-height: 15vmin;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+.tiles:hover{
+    cursor: pointer;
+   animation: cg 10s;
+}
+
+.player{
+    background-color: black;
+    border: 3px solid gold;
+    display: grid;
+    width: 50vmin;
+    height: 10vmin;
+    grid-template-columns: 60% 40%;
+    margin-top: 3vmin ;
+    grid-template-rows: 50% 50%;
+    color: aliceblue;
+    font-size: 3vmin;
+}
+p{
+    text-align: center;
+    margin-top: 1vmin;
+}
+#rst{
+   grid-column: span 2;
+    background-color: rgb(138, 106, 138);
+    font-size: 3vmin;
+    color: wheat;
+}
+#rst:hover{
+    background-color: rgb(137, 170, 137);
+    animation: lg 100s ;
+  
+
+}
+#form{
+    margin-top: 1vmin;
+
+}
